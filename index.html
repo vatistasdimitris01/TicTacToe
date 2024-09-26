@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tic Tac Toe</title>
+
+    <!-- Favicon Links (All derived from logo.png) -->
+    <link rel="icon" href="logo.png" type="image/png">
+
+    <!-- Apple Touch Icon (For iOS) -->
+    <link rel="apple-touch-icon" href="logo.png">
+
+    <!-- Manifest -->
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="theme-color" content="#4a90e2" />
+
+    <!-- External CSS Libraries -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/1.0.2/tailwind.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body class="w-screen h-screen ctr">
+    <div class="tabel ctr">
+      <div class="board">
+        <span id="col-0"></span><span id="col-1"></span>
+        <span id="col-2"></span><span id="col-3"></span>
+        <span id="col-4"></span><span id="col-5"></span>
+        <span id="col-6"></span><span id="col-7"></span>
+        <span id="col-8"></span>
+      </div>
+      <button id="reset">Reset</button>
+    </div>
+
+    <!-- Footer with copyright -->
+    <footer class="absolute bottom-0 w-full text-center p-4">
+      <a href="https://linktr.ee/vatistasdimitris" target="_blank" class="text-gray-600">
+        © 2021 Vatistas Dimitris
+      </a>
+    </footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>
